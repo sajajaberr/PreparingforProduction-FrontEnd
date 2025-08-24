@@ -1,3 +1,3 @@
-# Purpose of this Folder
-
-This folder should contain the scaffolded project files to get a student started on their project. This repo will be added to the Classroom for students to use, so please do not have any solutions in this folder.
+## My Udacity Projects (Front End Developer course)
+## Final Project: Preparing for Production
+In this project, I optimized and tested Study Night, a flashcard app. I set up dependencies, writed tests, and used Parcel and Gulp to optimize, automate, and prepare the app for production.
