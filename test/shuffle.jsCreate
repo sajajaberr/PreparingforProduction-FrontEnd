@@ -1,0 +1,22 @@
+import { expect } from "chai";
+import { shuffle } from "../src/shuffle.js";
+
+describe("shuffle", () => {
+  it("should shuffle the indexes of an array", () => {
+    const original = [1, 2, 3, 4, 5];
+    const shuffled = shuffle(original);
+
+    expect(shuffled).to.have.members(original);
+
+    const isSameOrder = original.every((val, idx) => val === shuffled[idx]);
+
+    let differentOrder = false;
+    for (let i = 0; i < 5; i++) {
+      if (!original.every((val, idx) => val === shuffle(original)[idx])) {
+        differentOrder = true;
+        break;
+      }
+    }
+    expect(differentOrder).to.be.true;
+  });
+});

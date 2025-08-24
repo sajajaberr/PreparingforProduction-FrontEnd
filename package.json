@@ -1,0 +1,25 @@
+{
+  "name": "my-udacity-project",
+  "version": "1.0.0",
+  "description": "my packages project with udacity",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "chai": "^5.2.0",
+    "cypress": "^14.5.0",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.7.1",
+    "parcel": "^2.15.4",
+    "typescript-eslint": "^8.35.0"
+  }
+}
